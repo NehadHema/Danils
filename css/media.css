@@ -1,0 +1,84 @@
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .container {
+        width: 90%;
+    }
+
+    .navbar li:hover .underline {
+        width: 0%;
+    }
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .contact .container {
+        width: 100%;
+    }
+
+    .about img {
+        width: 90%;
+    }
+
+    .about .about-text {
+        margin-top: 10%;
+
+    }
+
+    .about .para-b {
+        margin-top: 0;
+    }
+
+    .blog h3::before {
+        content: '';
+        width: 40%;
+        height: 70%;
+    }
+
+    .blog {
+        padding-top: 0;
+    }
+
+    .blog .container {
+        margin-top: 0;
+    }
+
+    .contact h3::before {
+        content: '';
+        width: 50%;
+        height: 70%;
+    }
+
+    .contact .contact-content {
+        margin-bottom: 50px;
+    }
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar li:hover .underline {
+        width: 0%;
+    }
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .about .buttons {
+        padding: 4px 15px;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .home h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        line-height: 1.2;
+    }
+
+    .home h1 span {
+        font-weight: 300;
+    }
+}
